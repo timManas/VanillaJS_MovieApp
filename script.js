@@ -1,9 +1,9 @@
 // API & Image location
 const API_Key = '3fd2be6f0c70a2a598f084ddfb75487c'
 
-const API_URL = `https://api.themoviedb.org/4/discover/movie?sort_by=popularity.desc&api_key=${API_Key}&page=1`
+const API_URL = `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${API_Key}&page=1`
 const IMG_PATH = 'https://image.tmdb.org/t/p/w1280'
-const SEARCH_API = `https://api.themoviedb.org/4/search/movie?api_key=${API_Key}&query="`
+const SEARCH_API = `https://api.themoviedb.org/3/search/movie?api_key=${API_Key}&query="`
 
 // Fetch elements from index
 const main = document.getElementById('main')
